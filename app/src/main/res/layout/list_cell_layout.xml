@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/head_ic"
+        android:layout_margin="15dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/name_tv"
+            android:text="code monkey~"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/link_tv"
+            android:text="分享了一个链接"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/name_tv"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:text="code money！！！"
+            android:textSize="14sp"
+            android:layout_below="@+id/name_tv"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:text="17小时前   魔都"
+            android:textSize="12sp"
+            android:layout_below="@+id/content_tv"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/comment_image"
+            android:layout_below="@+id/content_tv"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/comment_ic"
+            android:layout_alignParentRight="true"
+            android:layout_width="30dp"
+            android:layout_height="20dp" />
+        </RelativeLayout>
+
+</LinearLayout>

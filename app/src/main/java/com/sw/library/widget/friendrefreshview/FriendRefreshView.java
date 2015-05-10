@@ -42,7 +42,7 @@ public class FriendRefreshView extends ViewGroup implements OnDetectScrollListen
     private boolean bDraging = false;
 
     //圆形加载指示器最大top
-    private int rainbowMaxTop = 150;
+    private int rainbowMaxTop = 80;
     //圆形加载指示器刷新时的top
     private int rainbowStickyTop = 80;
     //圆形加载指示器初始top
